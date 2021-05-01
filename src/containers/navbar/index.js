@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { SignInBtn } from "../../components";
 import { UserContext } from "../../contexts/user";
-import instagram from "../../instagram.svg";
+import instagram from "../../images/instagram.svg";
 import ImageDropdown from "../image_dropdown";
 import "./index.css";
 
