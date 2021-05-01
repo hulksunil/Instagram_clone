@@ -1,0 +1,72 @@
+.post {
+  width: 100%;
+  max-width: 650px;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+
+.post > img {
+  width: 100%;
+}
+
+.post_top {
+  display: flex;
+  padding: 1rem 0.5rem 0.5rem;
+  gap: 1em;
+  align-items: center;
+  box-shadow: 0 -1px 1px 0px #ddd inset;
+}
+
+.post_top > img {
+  border-radius: 50%;
+}
+
+.post_bottom {
+  display: flex;
+  gap: 8px;
+}
+
+.heartButton {
+  border: none;
+  background: inherit;
+  outline: none;
+}
+
+.captionMsg {
+  margin-bottom: 0.3rem;
+}
+
+.commentsSection {
+  height: 3em;
+  overflow: scroll;
+}
+
+.comments,
+.noComments {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.noComments {
+  font-style: oblique;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .post:first-of-type {
+    margin-top: 1rem;
+  }
+
+  .post {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .post_bottom {
+    display: block;
+    padding: 0 0.3rem;
+  }
+}

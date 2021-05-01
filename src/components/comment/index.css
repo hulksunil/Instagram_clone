@@ -1,0 +1,11 @@
+.comment {
+  display: flex;
+  gap: 5px;
+  padding: 0.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment > img {
+  width: 30px;
+  border-radius: 50%;
+}

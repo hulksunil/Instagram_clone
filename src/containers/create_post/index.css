@@ -1,0 +1,52 @@
+.createPostSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 650px;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.createPostSection > h2 {
+  color: var(--primary-clr);
+}
+
+.createPostSection textarea {
+  padding: 0.3rem;
+  margin-top: 0.7rem;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.createPostSection_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.createPostSection_bottom > label {
+  cursor: pointer;
+}
+
+.createPostSection_bottom > input[type="file"] {
+  display: none;
+}
+
+.createPostSection_bottom > input[type="submit"] {
+  min-width: 50px;
+  border: none;
+}
+.createPostSection_bottom > input[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+.imagePreview {
+  padding: 1em 0 0.3rem;
+}
+
+.imagePreview > img {
+  max-width: 100px;
+  border-radius: 8px;
+}

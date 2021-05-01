@@ -1,0 +1,34 @@
+.userImgSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.userImgSection > img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.userImgSection > small {
+  font-size: 0.8rem;
+}
+
+.dropDownMenu {
+  position: absolute;
+  top: 2.74em;
+  right: 0;
+  z-index: 1;
+  background-color: var(--primary-clr);
+  border-radius: 5px;
+  padding: 0.3rem;
+  min-width: 11rem;
+  width: 100%;
+
+  text-align: center;
+}
+
+.dropDownMenu > * {
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.postComment > img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.postComment {
+  padding-top: 0.7rem;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.postComment > input[type="text"] {
+  width: 100%;
+  border: none;
+  padding: 0.6rem;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.postComment > input[type="submit"] {
+  display: none;
+}
