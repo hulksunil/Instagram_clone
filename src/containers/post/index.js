@@ -36,15 +36,18 @@ export default function Post(props) {
       </div>
       <div className="commentsSection">
         {/* We can use the index here since it will never change */}
+
         {comments && comments.length > 0 ? (
-          comments.map((comment, index) => (
-            <Comment
-              key={index}
-              photo={comment.commenterPic}
-              commenter={comment.commenter}
-              comment={comment.message}
-            />
-          ))
+          <div className="postComments">
+            {comments.map((comment, index) => (
+              <Comment
+                key={index}
+                photo={comment.commenterPic}
+                commenter={comment.commenter}
+                comment={comment.message}
+              />
+            ))}
+          </div>
         ) : (
           <p className="noComments">No comments. Be the first to comment</p>
         )}

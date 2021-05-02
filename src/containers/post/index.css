@@ -38,9 +38,9 @@
   margin-bottom: 0.3rem;
 }
 
-.commentsSection {
-  height: 3em;
-  overflow: scroll;
+.postComments {
+  max-height: 2.5em;
+  overflow-y: scroll;
 }
 
 .comments,
