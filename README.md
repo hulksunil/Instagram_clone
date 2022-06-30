@@ -2,6 +2,17 @@
 
 Works using react and firebase
 
+#### public link
+https://instagram-clone-9575e.web.app/
+
+## How to run the project
+1) Clone the project
+2) Enter the directory of the project using a command line terminal
+3) `yarn install`
+4) `yarn start`
+
+The project will be opened in localhost:3000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
